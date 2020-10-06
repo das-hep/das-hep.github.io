@@ -64,7 +64,7 @@
 
 .header-logo {
   a {
-    @include size(240px 80px);
+    @include size(200px 80px);
     background: url("/images/das-hep.svg") no-repeat;
     display: block;
     margin: 40px auto 0 auto;
