@@ -5,6 +5,7 @@ date: 2020-01-12
 
 The website is online !
 
-https://das-hep.gitlab.io
+<https://das-hep.github.io>
+
 
 
