@@ -1,1 +1,45 @@
-theme: jekyll-theme-minimal
+name: "DAS-HEP"
+title: "DAS-HEP"
+description: "DAS-HEP Home Page"
+
+encoding: utf-8
+timezone: Asia/Shanghai
+
+collections:
+  courses:
+    permalink: /courses/:path/
+    output: true
+ 
+  schools:
+    permalink: /schools/:path/
+    output: true
+
+  posts:
+    permalink: "/news/:year/:month/:day/:title/"
+    output: true
+
+defaults:
+  - scope:
+      path: _courses
+      type: courses
+    values:
+      layout: courses  
+  - scope:
+      path: _schools
+      type: schools
+    values:
+      layout: schools 
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: news_item
+plugins:
+  - jekyll-avatar
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

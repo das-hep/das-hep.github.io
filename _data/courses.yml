@@ -1,0 +1,21 @@
+- title: Master
+  pages:
+    - master/das-hep-000
+
+- title: Physics
+  pages:
+    - physics/das-hep-101
+
+- title: Computing
+  pages:
+    - computing/das-hep-201
+    - computing/das-hep-202
+    - computing/das-hep-203
+    - computing/das-hep-204
+    - computing/das-hep-205
+    - computing/das-hep-206
+
+- title: Detector
+  pages:
+    - detector/das-hep-301
+    
